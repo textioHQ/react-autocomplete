@@ -118,6 +118,11 @@ declare module '@textio/react-autocomplete' {
              */
             autoHighlight?: boolean;
             /**
+             * Custom function to determine whether the top match in the dropdown should
+             * highlight
+             */
+            autoHighlightValueMatches: (itemValue: string, value: string) => boolean,
+            /**
              * Whether or not to automatically select the highlighted item when the
              * `<input>` loses focus.
              */
