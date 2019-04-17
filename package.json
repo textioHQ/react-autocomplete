@@ -6,7 +6,8 @@
   "files": [
     "build/lib/index.js",
     "build/lib/Autocomplete.js",
-    "dist"
+    "dist",
+    "index.d.ts"
   ],
   "repository": {
     "type": "git",
